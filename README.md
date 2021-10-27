@@ -36,3 +36,12 @@ Dragging one or more gameobjects to the header of the `Destinations` list will a
 Note that **not all properties this script modifies are undoable**, so be careful.
 
 Found in `Tools/Unity Utils/Component Property Copy`.
+
+SaveTexture
+-----------
+
+Save the selected texture to a PNG file. Useful for exporting temporary in-memory textures in play mode.
+
+Note that texture assets must have the `Read/Write Enabled` option set for scripts like this one to access them.
+
+Found in `Tools/Unity Utils/Save Selected Texture`.
