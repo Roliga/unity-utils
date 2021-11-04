@@ -45,3 +45,10 @@ Save the selected texture to a PNG file. Useful for exporting temporary in-memor
 Note that texture assets must have the `Read/Write Enabled` option set for scripts like this one to access them.
 
 Found in `Tools/Unity Utils/Save Selected Texture`.
+
+AnimatorControllerMerger
+------------------------
+
+Merges a list of animator controllers into one. Animator layer contents is **referenced**, not copied, so changes on the master controller will propagate to the child controllers.
+
+To enable, select an animator controller and press "Enable Controller Merger". Note that this will wipe any layers already on this controller, so use with caution!
