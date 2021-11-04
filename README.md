@@ -52,3 +52,10 @@ AnimatorControllerMerger
 Merges a list of animator controllers into one. Animator layer contents is **referenced**, not copied, so changes on the master controller will propagate to the child controllers.
 
 To enable, select an animator controller and press "Enable Controller Merger". Note that this will wipe any layers already on this controller, so use with caution!
+
+GetAnimatorLayer
+----------------
+
+Display layer index of currently selected animator layer. Useful for VRChat's "VRC Animator Layer Control", since it uses layer indexes instead of names.
+
+Found in `Tools/Unity Utils/Show Animator Layer Index`.
