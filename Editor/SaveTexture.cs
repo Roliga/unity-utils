@@ -3,32 +3,35 @@ using UnityEditor;
 using UnityEngine;
 using System.IO;
 
-public class SaveTexture : MonoBehaviour
+namespace UnityUtils.AnimatorControllerMerger
 {
-    [MenuItem("Tools/Unity Utils/Save Selected Texture")]
-    static void Save()
+    public class SaveTexture
     {
-        Texture2D texture = Selection.activeObject as Texture2D;
-        if (texture == null)
+        [MenuItem("Tools/Unity Utils/Save Selected Texture")]
+        static void Save()
         {
-            EditorUtility.DisplayDialog(
-                "Save Selected Texture",
-                "You Must Select a Texture first!",
-                "Ok");
-            return;
-        }
+            Texture2D texture = Selection.activeObject as Texture2D;
+            if (texture == null)
+            {
+                EditorUtility.DisplayDialog(
+                    "Save Selected Texture",
+                    "You Must Select a Texture first!",
+                    "Ok");
+                return;
+            }
 
-        var path = EditorUtility.SaveFilePanel(
-            "Save texture as PNG",
-            "",
-            texture.name + ".png",
-            "png");
+            var path = EditorUtility.SaveFilePanel(
+                "Save texture as PNG",
+                "",
+                texture.name + ".png",
+                "png");
 
-        if (path.Length != 0)
-        {
-            var pngData = texture.EncodeToPNG();
-            if (pngData != null)
-                File.WriteAllBytes(path, pngData);
+            if (path.Length != 0)
+            {
+                var pngData = texture.EncodeToPNG();
+                if (pngData != null)
+                    File.WriteAllBytes(path, pngData);
+            }
         }
     }
 }
