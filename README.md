@@ -59,3 +59,10 @@ GetAnimatorLayer
 Display layer index of currently selected animator layer. Useful for VRChat's "VRC Animator Layer Control", since it uses layer indexes instead of names.
 
 Found in `Tools/Unity Utils/Show Animator Layer Index`.
+
+Capture Game View
+-----------------
+
+Takes a screenshot of the game view.
+
+Found in `Tools/Unity Utils/Capture Game View`.
