@@ -1,0 +1,15 @@
+{
+  "name" : "ga.roli.unity-utils",
+  "displayName" : "Unity Utils",
+  "version" : "1.3.1",
+  "author": {
+    "name": "Roliga",
+    "url": "https://roli.ga/"
+  },
+  "unity" : "2019.4",
+  "description" : "A collection of Unity editor utilities mostly found on random forums",
+  "vpmDependencies" : {},
+  "legacyFolders" : {
+    "Assets\\Unity Utils" : "ab7422ecfd69cc243ac3b0e03b1ad360"
+  }
+}
