@@ -17,6 +17,8 @@ Keeps the Scene view focused when entering play mode instead of switching to the
 
 Enabled from `Tools/Unity Utils/Enable Keep Scene Alive`. A GameObject is created in the scene with a toggle to enable/disable the script.
 
+**Note for Unity 2021.2 and newer:** This is no longer necessary, you can now go to the *Game* tab and change `Play Focused` to `Play Unfocused`.
+
 ShaderOccuranceWindow
 ---------------------
 
