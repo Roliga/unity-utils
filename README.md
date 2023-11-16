@@ -3,6 +3,8 @@ Unity Utils
 
 Just a collection of Unity editor utilities mostly found on random forums.
 
+Can be installed using [VPM](https://vcc.docs.vrchat.com/vpm/) for VRChat from [here](https://vpm.roli.ga/)!
+
 InspectorLockToggle
 -------------------
 
