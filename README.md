@@ -35,7 +35,7 @@ Dragging one or more gameobjects to the header of the `Destinations` list will a
 
 Note that **not all properties this script modifies are undoable**, so be careful.
 
-Found in `Tools/Unity Utils/Component Property Copy`.
+Found in `Tools/Unity Utils/Component Property Copy`, or in the context menu on components.
 
 SaveTexture
 -----------
