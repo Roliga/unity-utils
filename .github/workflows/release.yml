@@ -7,7 +7,6 @@ jobs:
   # Build and release the Package
   # If the repository is not configured properly, this job will be skipped
   build:
-    needs: config
     runs-on: ubuntu-latest
     permissions:
       contents: write
