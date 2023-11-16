@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace UnityUtils.AnimatorControllerMerger
+namespace UnityUtils.Screenshot
 {
     public static class Screenshot
     {

@@ -2,22 +2,25 @@
 using UnityEngine;
 using UnityEditor;
 
-public class KeepSceneAlive : MonoBehaviour
+namespace UnityUtils
 {
-    public bool KeepSceneViewActive = true ;
-
-    void Start()
+    public class KeepSceneAlive : MonoBehaviour
     {
-        if (KeepSceneViewActive && Application.isEditor)
+        public bool KeepSceneViewActive = true ;
+
+        void Start()
         {
-            EditorWindow.FocusWindowIfItsOpen(typeof(SceneView));
+            if (KeepSceneViewActive && Application.isEditor)
+            {
+                EditorWindow.FocusWindowIfItsOpen(typeof(SceneView));
+            }
         }
-    }
-	
-	[MenuItem("Tools/Unity Utils/Enable Keep Scene Alive")]
-    public static void EnableAv3Testing() {
-		GameObject go = new GameObject("Keep Scene Alive Control");
-		go.AddComponent<KeepSceneAlive>();
+        
+        [MenuItem("Tools/Unity Utils/Enable Keep Scene Alive")]
+        public static void EnableAv3Testing() {
+            GameObject go = new GameObject("Keep Scene Alive Control");
+            go.AddComponent<KeepSceneAlive>();
+        }
     }
 }
 #endif

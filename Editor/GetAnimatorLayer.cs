@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditor.Animations;
 
-namespace UnityUtils.AnimatorControllerMerger
+namespace UnityUtils
 {
     public class GetAnimatorLayer
     {

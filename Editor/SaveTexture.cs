@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using System.IO;
 
-namespace UnityUtils.AnimatorControllerMerger
+namespace UnityUtils
 {
     public class SaveTexture
     {
