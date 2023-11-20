@@ -77,3 +77,10 @@ Align Camera With Scene View
 Aligns a camera with the scene view.
 
 This is a component that can be added to any game object.
+
+AlwaysUpdate
+------------
+
+Refresh the screen continuously. Useful for tweating material properties on shaders with time-based effects.
+
+Found in `Tools/Unity Utils/Always Update Screen`.
