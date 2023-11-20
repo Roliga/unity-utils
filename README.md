@@ -84,3 +84,10 @@ AlwaysUpdate
 Refresh the screen continuously. Useful for tweating material properties on shaders with time-based effects.
 
 Found in `Tools/Unity Utils/Always Update Screen`.
+
+Presets Per Folder
+------------------
+
+Newly imported assets will use any preset saved in a parent directory of that asset.
+
+Enabled in `Tools/Unity Utils/Enable Pesets Per Folder`.
