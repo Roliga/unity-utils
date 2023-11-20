@@ -70,3 +70,10 @@ Capture Game View
 Takes a screenshot of the game view.
 
 Found in `Tools/Unity Utils/Capture Game View`.
+
+Align Camera With Scene View
+----------------------------
+
+Aligns a camera with the scene view.
+
+This is a component that can be added to any game object.
